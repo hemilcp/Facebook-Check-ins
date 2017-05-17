@@ -1,0 +1,11 @@
+To run the system:
+
+1. Download train and test datatsets from Kaggle.com : https://www.kaggle.com/c/facebook-v-predicting-check-ins/data
+
+2. Run split.py
+
+3. Run knn and random forest models (Change configurations for more tuning)
+
+4. run ensemble model (Change ensemble configurations according to your knn and rf directories)
+
+5. For validation check, run show_all_ensemble_score.py
