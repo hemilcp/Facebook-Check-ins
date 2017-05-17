@@ -52,8 +52,8 @@ def train_hour_periodic(df_train, time_edge):
 def process_one_cell(df_train, df_test, valid_mode_on,
                      gx_id, gy_id, x_border, y_border, th, model_list):
     """   
-    Classification inside one grid cell.
-    """
+    Classification inside one grid cell
+    ""'
     #Working on df_train
     #filtering occurance smaller than th
     #consider border of cell
